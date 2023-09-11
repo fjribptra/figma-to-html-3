@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tenor sans;
+}
+
+nav {
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo {
+    color: #4F4A7D;
+    font-size: 1.2rem;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #4F4A7D;
+}
+
+nav .login-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: salmon; */
+}
+
+nav .login-register-container a {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #4F4A7D;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav .login-register-container a:first-child {
+    color: #4F4A7D;
+}
+
+nav .login-register-container a:last-child {
+    background-color: #4F4A7D;
+    color: white;
+}
+
+section.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.hero-section .text-container {
+    width: 100%;
+    background-image: url('assets/GREENSCREEN.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+section.hero-section .text-container h1 {
+    font-size: 3rem;
+}
+
+section.hero-section .text-container p {
+    font-size: 2rem;
+}
+
+section.hero-section .text-container a {
+    text-decoration: none;
+    padding: 15px 40px;
+    border: 2px solid #4F4A7D;
+    background-color: white;
+    color: #4F4A7D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
