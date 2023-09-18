@@ -71,6 +71,7 @@ nav .login-register-container a:last-child {
 section.hero-section {
     display: flex;
     justify-content: space-between;
+    height: 90vh;
 }
 
 section.hero-section .text-container {
@@ -105,6 +106,10 @@ section.hero-section .text-container a {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+section.hero-section .image-container img {
+    height: 90vh;
 }
 
 .warning {
