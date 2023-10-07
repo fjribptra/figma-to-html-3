@@ -122,7 +122,7 @@ section.hero-section .image-container img {
     color: #4F4A7D;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 999px) {
     .full-container {
         display: none;
     }
